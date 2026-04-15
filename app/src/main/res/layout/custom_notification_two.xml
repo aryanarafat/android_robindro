@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/LayoutTwoIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+           >
+
+
+        </ImageView>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/layoutTwoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="হুমায়ূন আহমেদ সমগ্র"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/solaimanlipi"
+                android:textColor="@color/main_title_color"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/layoutTwoSecTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/solaimanlipi"
+                android:text="উপন্যাস , হিমু সমগ্র , সাইন্স ফিকশন মিসির আলি সবকিছু একটি অ্যাপে"
+                android:textColor="@color/main_title_color"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    
+    
+    <TextView
+        android:id="@+id/layouTwoAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="About"
+        android:textColor="@color/main_title_color"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/layoutTwoDec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/solaimanlipi"
+        android:text="বিখ্যাত লেখ হুমায়ূন আহমেদের সব উপন্যাস লেখা উপভোগ করতে এখনই ডাউনলোড করুন অ্যাপসটি"
+        android:textColor="@color/main_title_color"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
